@@ -127,11 +127,12 @@ word-wrap: break-word;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.nav-link:hover, .nav-link:focus, .list-contact:active {
+.nav-link:hover, .nav-link:focus {
     color: #404BBF;
 }
 .studio-link {
     position: relative;
+    color: #404bbf
 }
 .studio-link::after {
     content: "";
@@ -143,7 +144,6 @@ background: var(--OCEAN, #404BBF);
 position: absolute;
 left: 0;
 bottom: -1px;
-transform: translateY(500%);
 }
 .list-contact {
 font-style: normal;
@@ -165,15 +165,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     color: #404BBF;
 }
 
-
-.nav-list::after {
-    content: "";
-    width: 48px;
-height: 4px;
-flex-shrink: 0;
-border-radius: 2px;
-background: var(--OCEAN, #404BBF);
-}
 /* HEADER */
 
 /* HERO-SECTION */ 
